@@ -1,8 +1,8 @@
 # Warpwallet Doublecheck
 
-# keybase.io/warp
 
-The Warpwallet is found using this formula:
+
+The Warpwallet from <b>keybase.io/warp</b> is found using this formula:
 
 *<sub>s1 	=	scrypt(key=(passphrase||0x1), salt=(salt||0x1), N=218, r=8, p=1, dkLen=32)
 s2 	=	pbkdf2(key=(passphrase||0x2), salt=(salt||0x2), c=216, dkLen=32, prf=HMAC_SHA256)
