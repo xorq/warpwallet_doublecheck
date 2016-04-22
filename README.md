@@ -1,6 +1,6 @@
-# warpwallet_doublecheck
+# Warpwallet Doublecheck
 
-keybase.io/warp
+# keybase.io/warp
 
 The Warpwallet is found using this formula:
 
