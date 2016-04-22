@@ -8,5 +8,5 @@ The Warpwallet from <b>keybase.io/warp</b> is found using this formula:
 s2 	=	pbkdf2(key=(passphrase||0x2), salt=(salt||0x2), c=216, dkLen=32, prf=HMAC_SHA256)
 keypair	=	generate_bitcoin_keypair(s1 ⊕ s2)</sub>*
 
-This self-sufficient script does exactly the above and can be used to double check that the Warpwallet you discovered is legit.
+This self-sufficient script does exactly the above and can be used to double check that the Warpwallet you are discovering are legit.
 
