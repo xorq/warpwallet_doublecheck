@@ -10412,9 +10412,11 @@ warp= function(passphrase,salt) {
 	return [key.toWIF(),key.pub.getAddress().toString()];
 };
 
-
+module.exports={
+  warp: warp
+}
 
 // TEST WITH EMPTY VALUES
-console.log(warp('',''));
+//console.log(warp('',''));
 
 // -> [ '5K1Y8iHsXHzLo4HUhURCdMrdzmrL5nomWKJqqp7cNPmHhxLmDPi' , '1n2Co86FSa5VgQBXi8zDcXTLnmpxVuJAJ' ]
